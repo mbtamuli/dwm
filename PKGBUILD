@@ -15,14 +15,17 @@ depends=('libx11' 'libxinerama' 'libxft' 'freetype2' 'st' 'dmenu')
 install=dwm.install
 source=(http://dl.suckless.org/dwm/dwm-$pkgver.tar.gz
 	config.h
+	selfrestart.c
 	dwm.desktop)
 sha256sums=('97902e2e007aaeaa3c6e3bed1f81785b817b7413947f1db1d3b62b8da4cd110e'
-            '532c00f5500bc3c1bf645d2ea27d6e733b3e8a56f520099dd0a92a41f1f87a40'
+            '869e50ad27bf396cc5ff7c6d4a5610975a5b475a53c72260ebf4677d47002eba'
+            '076cf761160b561c09ab94621067687bbe54144331486588637f5560446a3341'
             'bc36426772e1471d6dd8c8aed91f288e16949e3463a9933fee6390ee0ccd3f81')
 
 prepare() {
   cd "$srcdir/$pkgname-$pkgver"
   cp "$srcdir/config.h" config.h
+  cp "$srcdir/selfrestart.c" selfrestart.c
 }
 
 build() {

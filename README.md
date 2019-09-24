@@ -3,6 +3,7 @@
 ## Patches added
 
 * [Change Mod1 key to the Windows key](https://dwm.suckless.org/customisation/windows_key/)
+* [Restart dwm without the unnecessary dependency of an external script](https://dwm.suckless.org/patches/selfrestart/)
 
 ## Steps to build
 
@@ -14,13 +15,15 @@
   ```
   git clone git@github.com:mbtamuli/dwm.git
   ```
-* Get dependencies, build and then remove the installed dependencies after a successful build.
+* Get dependencies, build and then remove the installed dependencies after
+  a successful build.
   ```
   cd dwm
   makepkg -sri
   ```
 ### Note
-1. I'm just providing steps for the distribution I'm currently using - Arch Linux.
+1. I'm just providing steps for the distribution I'm currently using - Arch
+   Linux.
 2. Run the commands as normal user(non-root).
 
 ## Steps to customize
