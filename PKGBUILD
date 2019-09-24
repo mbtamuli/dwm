@@ -17,7 +17,7 @@ source=(http://dl.suckless.org/dwm/dwm-$pkgver.tar.gz
 	config.h
 	dwm.desktop)
 sha256sums=('97902e2e007aaeaa3c6e3bed1f81785b817b7413947f1db1d3b62b8da4cd110e'
-            'ce156c4ff6be6f664f5c1eb41e8ae8228c15d0282410be3ecdd58598bb8867d2'
+            '532c00f5500bc3c1bf645d2ea27d6e733b3e8a56f520099dd0a92a41f1f87a40'
             'bc36426772e1471d6dd8c8aed91f288e16949e3463a9933fee6390ee0ccd3f81')
 
 prepare() {
